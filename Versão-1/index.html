@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Falhas intencionais: sem meta charset, sem viewport, sem meta description, sem lang -->
+  <title>Guilherme Matos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="banner-versao2">
+    <p>Quer ver esta página refatorada com HTML5 semântico e boas práticas de acessibilidade?</p>
+    <a href="../Versão-2/versao2.html" class="btn-ir-versao2">Ver Versão 2</a>
+  </div>
+
+  <div class="topo">
+    <div class="nome-site">Guilherme Matos</div>
+    <div class="links-menu">
+      <div class="link-item" onclick="alert('Indo para Sobre')">Sobre</div>
+      <div class="link-item" onclick="alert('Indo para Interesses')">Interesses</div>
+      <div class="link-item" onclick="alert('Indo para Projetos')">Projetos</div>
+    </div>
+  </div>
+
+  <div class="corpo-pagina">
+    <div class="conteudo-principal">
+      <div class="post-perfil">
+        <div class="titulo-post">Olá, eu sou o Guilherme!</div>
+        <div class="subtitulo-autor">Ciência da Computação — UFRR</div>
+
+        <!-- Imagem sem alt e sem dimensões (gera CLS e falha de acessibilidade) -->
+        <div class="bloco-foto">
+          <img src="../img/perfil-placeholder.webp" class="foto-perfil">
+        </div>
+
+        <div class="secao-texto">
+          <div class="titulo-secao">Sobre mim</div>
+          <div class="texto">
+            Sempre tive muita curiosidade por tecnologia e por entender como as coisas funcionam. Gosto de programação, computadores, eletrônica e de colocar a mão na massa para transformar ideias em projetos reais. Ao longo do tempo, isso acabou me levando para áreas bastante diferentes, desde desenvolvimento de software até impressão 3D, automação e construção de projetos próprios.
+          </div>
+          <div class="texto">
+            Uma das coisas que mais gosto é criar. Seja desenvolvendo alguma coisa no computador, projetando uma peça para impressão 3D, montando um equipamento com Arduino, planejando uma reforma ou pensando em como aproveitar melhor um espaço da minha casa, gosto de sair da ideia e chegar em alguma coisa que realmente exista.
+          </div>
+        </div>
+
+        <div class="secao-texto">
+          <div class="titulo-secao">Meus interesses</div>
+          <div class="item-interesse">
+            <div class="subtitulo-item">Tecnologia</div>
+            <div class="texto">Tecnologia é uma das minhas maiores áreas de interesse. Gosto de programação, computadores, servidores, Linux, automação e desenvolvimento de projetos.</div>
+          </div>
+          <div class="item-interesse">
+            <div class="subtitulo-item">Impressão 3D</div>
+            <div class="texto">A impressão 3D acabou se tornando uma extensão perfeita do meu jeito de pensar. O mais interessante para mim não é apenas imprimir objetos prontos. Gosto da possibilidade de imaginar alguma coisa, modelar, testar, errar, ajustar e finalmente fabricar. Também tenho interesse em transformar essa paixão em projetos e produtos personalizados.</div>
+          </div>
+          <div class="item-interesse">
+            <div class="subtitulo-item">Design</div>
+            <div class="texto">Uma característica que aparece em muitos dos meus projetos é meu gosto por design minimalista, mas sem ser frio ou sem personalidade. Marcas e produtos que conseguem unir tecnologia, simplicidade e uma boa identidade visual me chamam bastante atenção. Para mim, algo bem projetado não precisa ser cheio de detalhes — muitas vezes, justamente o contrário: quanto mais simples e bem resolvido, melhor.</div>
+          </div>
+        </div>
+
+        <div class="secao-texto">
+          <div class="titulo-secao">Meus projetos</div>
+          <div class="texto">
+            Uma coisa que provavelmente define bastante quem eu sou é a quantidade de projetos que acabam surgindo na minha cabeça. Já passei por projetos envolvendo:
+          </div>
+          <div class="lista-projetos">
+            <div class="proj-item">Programação e desenvolvimento de software</div>
+            <div class="proj-item">Jogos e Unity</div>
+            <div class="proj-item">Servidores Linux e Docker</div>
+            <div class="proj-item">Automação</div>
+            <div class="proj-item">Arduino e eletrônica</div>
+            <div class="proj-item">Impressão 3D</div>
+            <div class="proj-item">Modelagem e fabricação de peças</div>
+          </div>
+          <div class="texto">
+            Alguns projetos ficam apenas como ideias, outros realmente saem do papel. Mas quase todos começam da mesma maneira: "e se eu tentasse fazer isso?"
+          </div>
+        </div>
+
+        <!-- Botão inacessível: div com onclick, sem suporte a teclado -->
+        <div class="botao-interativo" id="btn-mensagem">
+          Clique para revelar
+        </div>
+        <div id="mensagem-secreta" style="display:none; margin-top:15px; color:#999;">
+          Sasagayo
+        </div>
+      </div>
+    </div>
+
+    <div class="barra-lateral">
+      <div class="titulo-lateral">Áreas de projeto</div>
+      <div class="item-lateral">Software</div>
+      <div class="item-lateral">Eletrônica</div>
+      <div class="item-lateral">Impressão 3D</div>
+    </div>
+  </div>
+
+  <div class="rodape">
+    <div>&copy; 2026 Guilherme Matos</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
