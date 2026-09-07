@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Guilherme Matos, estudante de Ciência da Computação na UFRR, com projetos em software, eletrônica, automação e impressão 3D.">
+    <title>Guilherme Matos — Software, Eletrônica & Impressão 3D</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="#topo" class="logo">Guilherme Matos</a>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#interesses">Interesses</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content" id="topo">
+        <article>
+            <section class="hero" id="sobre">
+                <div class="hero-intro">
+                    <span class="eyebrow">Ciência da Computação — UFRR</span>
+                    <h1>Olá, eu sou o Guilherme.</h1>
+                    <p>
+                        Sempre tive muita curiosidade por tecnologia e por entender como as coisas funcionam. Gosto de programação, computadores, eletrônica e de colocar a mão na massa para transformar ideias em projetos reais.
+                    </p>
+                </div>
+                <figure class="profile-figure">
+                    <img
+                        src="../img/perfil-placeholder.webp"
+                        alt="Foto de perfil de Guilherme Matos"
+                        class="profile-img"
+                        width="600"
+                        height="800"
+                        loading="eager"
+                        fetchpriority="high">
+                </figure>
+            </section>
+
+            <section class="content-section about-text">
+                <h2>Sobre mim <span class="tag">quem eu sou</span></h2>
+                <p>
+                    Ao longo do tempo, minha curiosidade acabou me levando para áreas bastante diferentes, desde desenvolvimento de software até impressão 3D, automação e construção de projetos próprios.
+                </p>
+                <p>
+                    Uma das coisas que mais gosto é criar. Seja desenvolvendo alguma coisa no computador, projetando uma peça para impressão 3D, montando um equipamento com Arduino, planejando uma reforma ou pensando em como aproveitar melhor um espaço da minha casa, gosto de sair da ideia e chegar em alguma coisa que realmente exista.
+                </p>
+            </section>
+
+            <section class="content-section" id="interesses">
+                <h2>Meus interesses <span class="tag">no que eu me apoio</span></h2>
+                <div class="interest-grid">
+                    <div class="interest-card">
+                        <span class="icon" aria-hidden="true">💻</span>
+                        <h3>Tecnologia</h3>
+                        <p>Programação, computadores, servidores, Linux, automação e desenvolvimento de projetos.</p>
+                    </div>
+                    <div class="interest-card">
+                        <span class="icon" aria-hidden="true">🖨️</span>
+                        <h3>Impressão 3D</h3>
+                        <p>Uma extensão do meu jeito de pensar: imaginar, modelar, testar, errar, ajustar e finalmente fabricar.</p>
+                    </div>
+                    <div class="interest-card">
+                        <span class="icon" aria-hidden="true">🎨</span>
+                        <h3>Design</h3>
+                        <p>Gosto por um design minimalista, mas sem ser frio — quanto mais simples e bem resolvido, melhor.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section" id="projetos">
+                <h2>Meus projetos <span class="tag">o que já construí</span></h2>
+                <p class="about-text" style="margin-bottom:1.25rem;">
+                    A quantidade de projetos que surgem na minha cabeça provavelmente define bastante quem eu sou. Já passei por:
+                </p>
+                <ul class="project-list">
+                    <li><span class="index">01</span> Programação e desenvolvimento de software</li>
+                    <li><span class="index">02</span> Jogos e Unity</li>
+                    <li><span class="index">03</span> Servidores Linux e Docker</li>
+                    <li><span class="index">04</span> Automação</li>
+                    <li><span class="index">05</span> Arduino e eletrônica</li>
+                    <li><span class="index">06</span> Impressão 3D</li>
+                    <li><span class="index">07</span> Modelagem e fabricação de peças</li>
+                </ul>
+                <p class="closing-line">"E se eu tentasse fazer isso?" — é assim que quase todo projeto começa.</p>
+            </section>
+
+            <section class="reveal-block">
+                <button type="button" id="btn-mensagem" class="btn-interactive" aria-expanded="false" aria-controls="mensagem-secreta">
+                    Revelar palavra do dia
+                </button>
+                <div id="mensagem-secreta" class="secret-message" role="region" aria-live="polite" hidden>
+                    Sasagayo
+                </div>
+            </section>
+
+            <nav class="sidebar" aria-label="Navegação rápida por áreas">
+                <h2>Áreas de projeto</h2>
+                <ul class="chip-list">
+                    <li><a href="#projetos">Software</a></li>
+                    <li><a href="#projetos">Eletrônica</a></li>
+                    <li><a href="#projetos">Impressão 3D</a></li>
+                    <li><a href="#interesses">Design</a></li>
+                </ul>
+            </nav>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Guilherme Matos — DCC / UFRR</p>
+    </footer>
+
+    <script src="script2.js" defer></script>
+</body>
+</html>
