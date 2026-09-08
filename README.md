@@ -34,8 +34,8 @@ O arquivo `img/perfil-placeholder.webp` contém a foto real do autor. O conteúd
 1. Crie o repositório **Guilherme_Ramos_2023010736_Aula_Pratica_DCC704** no GitHub e suba as pastas `Versão-1/`, `Versão-2/`, `img/` e este `README.md`.
 2. Em **Settings → Pages**, selecione a branch `main`, pasta `/ (root)`, e salve.
 3. Os links de acesso ficarão em:
-   * Versão 1 (com falhas): `https://GRamos-Dev.github.io/Guilherme_Ramos_2023010736_Aula_Pratica_DCC704/Versão-1/index.html`
-   * Versão 2 (refatorada): `https://GRamos-Dev.github.io/Guilherme_Ramos_2023010736_Aula_Pratica_DCC704/Versão-2/versao2.html`
+   * Versão 1 (com falhas): `gramos-dev.github.io/Guilherme_Ramos_2023010736_Aula_Pratica_DCC704/Versão-1/index.html`
+   * Versão 2 (refatorada): `gramos-dev.github.io/Guilherme_Ramos_2023010736_Aula_Pratica_DCC704/Versão-2/versao2.html`
 
 ## Resultado da auditoria (Google Lighthouse / PageSpeed Insights)
 
